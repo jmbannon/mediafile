@@ -1114,7 +1114,8 @@ class MediaFieldTest(unittest.TestCase):
             ('encoder', 'images', 'genres', 'albumtype', 'artists',
              'albumartists', 'url', 'mb_artistids', 'mb_albumartistids',
              'albumtypes', 'catalognums', 'languages', 'artists_credit',
-             'artists_sort', 'albumartists_credit', 'albumartists_sort')
+             'artists_sort', 'albumartists_credit', 'albumartists_sort',
+             'popm')
         )
         assertCountEqual(self, MediaFile.fields(), fields)
 
