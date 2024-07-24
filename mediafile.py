@@ -1883,7 +1883,7 @@ class MediaFile(object):
     )
     popm = MediaField(
         MP3StorageStyle('POPM'),
-        MP4StorageStyle('POPM'),
+        MP4StorageStyle('POPM', as_type=int),
         StorageStyle('POPM'),
         ASFStorageStyle('Popm'),
         out_type=int
